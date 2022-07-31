@@ -1,7 +1,5 @@
 image: Ubuntu
 
-stack: jdk 11
-
 branches:
   only:
     - main
@@ -14,4 +12,4 @@ install:
 
 build_script:
   - ./gradlew build
-  - ./gradlew test --info
+
