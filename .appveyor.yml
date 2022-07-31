@@ -6,7 +6,7 @@ branches:
   only:
     - main
 
-build: chmod +x gradlew
+build: off
 
 install:
 
